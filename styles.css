@@ -1,4 +1,4 @@
-body{background-color: cyan;text-align: center;}
+body{background-color: rgb(218, 245, 245);text-align: center;}
 h1{
     color:blue;
 }
@@ -7,7 +7,17 @@ p{
 }
 table{
     border: 1px solid red;
+    margin: auto;
     border-collapse: collapse;
+    border-color: aliceblue;
     background-color: azure;
+
+}
+table{
+    margin: auto;
+    border: 1px solid rgb(250, 250, 247);
+    padding: 5px;
+    border-color: aliceblue;
+    background-color: rgb(242, 168, 161);
 
 }

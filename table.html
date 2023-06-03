@@ -1,17 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" type="image/x-icon " href="photos\favicon (1).ico"
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            background-image: url("photos/light.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment:fixed;
+        }
+    </style>
 </head>
 <body>
     <h1>Learn Table</h1>
     <p>Creating Table using Html</p>
-    <table style="width: 100%;" border="1"
-    ><tr>
+    <table style="width: 100%;" border="1">
+        <colgroup>
+            <col span="1" style="background-color: antiquewhite;">
+            <col span="2" style="background-color: rgb(237, 179, 103);">
+            <col span="3" style="background-color: rgb(173, 125, 61);">
+            <col span="4" style="background-color: rgb(243, 200, 144);">
+        </colgroup>
+    <tr>
         <th>Sl.no</th>
         <th>Name</th>
         <th>Marks</th>
@@ -56,6 +71,45 @@
 
 
 </table>
-    
+<br>
+<br>
+<br>
+<br>
+<table style="width:100%" border="1">
+    <colgroup>
+        <col span="1" style="background-color: #e4857f;">
+        <col span="2" style="background-color: #e4857f;">
+        <col span="3" style="background-color: #e4857f;">
+    </colgroup>
+    <tr>
+        <th>person 1</th>
+        <th>person 2</th>
+        <th>person 3</th>
+    </tr>
+
+    <tr>
+        <td>Fathima</td>
+        <td>Doney</td>
+        <td>Dona</td>
+    </tr>
+
+    <tr>
+        <td>21</td>
+        <td>23</td>
+        <td>21</td>
+    </tr>
+
+</table>
+    <br>
+    <br>
+    <br>
+    <h1>Html Images</h1>
+    <img src="photos/dark.jpg" width="500" height="300"  alt="Wallpaper">
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <img src="photos/wallpaper.jpg" width="500" height="300" alt="2nd">
 </body>
 </html>
